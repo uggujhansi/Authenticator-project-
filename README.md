@@ -70,7 +70,7 @@ A simple authentication system built using the **MVC architecture** with Java Se
 - This project is open-source and free to use under the MIT License.
 
 ## ✨ Author
-- Jhansi – GitHub Profile
+- Jhansi – https://github.com/uggujhansi
 
 - Feel free to star ⭐ the repository if you find it helpful!
 ---
