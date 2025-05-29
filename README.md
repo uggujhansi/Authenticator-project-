@@ -26,4 +26,57 @@ A simple authentication system built using the **MVC architecture** with Java Se
 ---
 
 ## 🗂 Project Structure
+- Authentication_Proj1/
+- ├── src/
+- │ ├── AuthModel.java # Database logic (Model)
+- │ ├── Register.java # Handles user registration (Controller)
+- │ ├── Login.java # Handles user login (Controller)
+- ├── WebContent/
+- │ ├── register.html # Registration form (View)
+- │ ├── login.html # Login form (View)
+- │ ├── dashboard.html # Successful login landing page
+- │ ├── regfail.html # Registration failed
+- │ ├── loginfail.html # Login failed
+- │ ├── WEB-INF/
+- │ └── web.xml # Servlet mapping and deployment descriptor
+
+---
+
+
+---
+
+## 🧰 Database Setup
+
+1. **Create the Database:**
+   ```sql
+   CREATE DATABASE august;
+
+## 🚀 Getting Started
+# Prerequisites
+- JDK 8 or above
+- Apache Tomcat (e.g., v9 or v10)
+- MySQL Server
+- Any Java IDE (Eclipse, IntelliJ IDEA, etc.)
+
+---
+## 📌 Notes
+- Ensure your JDBC driver (mysql-connector-j.jar) is added to your project’s build path.
+
+- Store passwords securely (e.g., hash them) in production-level applications.
+
+- Validate inputs thoroughly in production using both frontend and backend checks.
+---
+## 📜 License
+- This project is open-source and free to use under the MIT License.
+
+## ✨ Author
+- Jhansi – GitHub Profile
+
+- Feel free to star ⭐ the repository if you find it helpful!
+---
+
+![Screenshot 2025-05-29 091735](https://github.com/user-attachments/assets/8af15d20-6103-49d3-a69d-54f861ae9846)
+
+
+
 
