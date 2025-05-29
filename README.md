@@ -74,9 +74,6 @@ A simple authentication system built using the **MVC architecture** with Java Se
 
 - Feel free to star ⭐ the repository if you find it helpful!
 ---
-## here is the code output reference
-![Screenshot 2025-05-29 091735](https://github.com/user-attachments/assets/8af15d20-6103-49d3-a69d-54f861ae9846)
-
 
 
 
