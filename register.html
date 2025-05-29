@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register Here</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      width: 400px;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #333;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="tel"] {
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      margin-top: 20px;
+      padding: 12px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the Portal</h1>
+    <h2>Register Below</h2>
+    <form action="http://localhost:9090/Authentication_Proj1/Register" method="post">
+      <label for="un">Username:</label>
+      <input type="text" id="un" name="un" required autofocus placeholder="Full Name" />
+
+      <label for="up">Password:</label>
+      <input type="password" id="up" name="up" required placeholder="Password" />
+
+      <label for="ue">Email:</label>
+      <input type="email" id="ue" name="ue" placeholder="you@example.com" />
+
+      <label for="uph">Phone:</label>
+      <input type="tel" id="uph" name="uph" placeholder="e.g. 9876543210" />
+
+      <input type="submit" value="Sign Up" />
+    </form>
+  </div>
+</body>
+</html>
